@@ -1,0 +1,53 @@
+/* Estilos para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#relojes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reloj {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+}
+
+.reloj img {
+    max-width: 100%;
+}
+
+#carrito {
+    list-style-type: none;
+    padding: 0;
+}
+
+#carrito li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+#vaciar-carrito {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#vaciar-carrito:hover {
+    background-color: #cc4c35;
+}
